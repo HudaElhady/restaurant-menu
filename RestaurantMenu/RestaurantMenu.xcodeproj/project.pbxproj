@@ -15,6 +15,32 @@
 		1ECA05142654620800DD1DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ECA05122654620800DD1DE5 /* LaunchScreen.storyboard */; };
 		1ECA051F2654620800DD1DE5 /* RestaurantMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA051E2654620800DD1DE5 /* RestaurantMenuTests.swift */; };
 		1ECA052A2654620800DD1DE5 /* RestaurantMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA05292654620800DD1DE5 /* RestaurantMenuUITests.swift */; };
+		1ECA0540265466E500DD1DE5 /* CategoriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA053F265466E500DD1DE5 /* CategoriesListViewController.swift */; };
+		1ECA05462654689300DD1DE5 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA05452654689300DD1DE5 /* BaseViewModel.swift */; };
+		1ECA054E265468C800DD1DE5 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA054D265468C800DD1DE5 /* Dynamic.swift */; };
+		1ECA05542654691F00DD1DE5 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA05532654691F00DD1DE5 /* ViewControllerExtension.swift */; };
+		1ECA05592654695400DD1DE5 /* CategoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA05582654695400DD1DE5 /* CategoriesListViewModel.swift */; };
+		1ECA055F265469C500DD1DE5 /* MenuRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA055E265469C500DD1DE5 /* MenuRepo.swift */; };
+		1ECA05662654710600DD1DE5 /* RestaurantMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA05652654710600DD1DE5 /* RestaurantMenu.swift */; };
+		1ECA056E2654714300DD1DE5 /* RestaurantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA056D2654714300DD1DE5 /* RestaurantInfo.swift */; };
+		1ECA0573265471FA00DD1DE5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA0572265471FA00DD1DE5 /* Category.swift */; };
+		1ECA0578265472C100DD1DE5 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA0577265472C100DD1DE5 /* NetworkError.swift */; };
+		1ECA057D2654761A00DD1DE5 /* restaurant-menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 1ECA057C2654761A00DD1DE5 /* restaurant-menu.json */; };
+		1ECA058526547E1900DD1DE5 /* ActivityIndicatorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA058426547E1900DD1DE5 /* ActivityIndicatorExtension.swift */; };
+		1ECA058A26547E5600DD1DE5 /* CategoryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA058926547E5600DD1DE5 /* CategoryTableCell.swift */; };
+		1ECA05BA2654C53700DD1DE5 /* CategoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA05B92654C53700DD1DE5 /* CategoryDetailsViewController.swift */; };
+		1ECA05BF2654C55700DD1DE5 /* MenuItemTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA05BE2654C55700DD1DE5 /* MenuItemTableCell.swift */; };
+		1ECA05C42654C78100DD1DE5 /* StoryBoardsIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA05C32654C78100DD1DE5 /* StoryBoardsIDs.swift */; };
+		1ECA05C92654C87300DD1DE5 /* CategoryDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA05C82654C87300DD1DE5 /* CategoryDetailsViewModel.swift */; };
+		1ECA05FA2654C9F100DD1DE5 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA05F92654C9F100DD1DE5 /* Cart.swift */; };
+		1ECA06022654CBCD00DD1DE5 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA06012654CBCD00DD1DE5 /* UserDefaultsExtension.swift */; };
+		1ECA060B2654CF0500DD1DE5 /* MenuItemTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ECA060A2654CF0500DD1DE5 /* MenuItemTableCell.xib */; };
+		1ECA06112654D0FA00DD1DE5 /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ECA06102654D0FA00DD1DE5 /* Cart.storyboard */; };
+		1ECA06172654D14300DD1DE5 /* CartDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA06162654D14300DD1DE5 /* CartDetailsViewController.swift */; };
+		1ECA061F2654D32600DD1DE5 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA061E2654D32600DD1DE5 /* CartTableViewCell.swift */; };
+		1ECA06242654D75D00DD1DE5 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA06232654D75D00DD1DE5 /* UIViewExtension.swift */; };
+		1ED7DB422654F50D00F4C161 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED7DB412654F50D00F4C161 /* PaymentViewController.swift */; };
+		1ED7DB4B2654F5BB00F4C161 /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED7DB4A2654F5BB00F4C161 /* Payment.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +75,32 @@
 		1ECA05252654620800DD1DE5 /* RestaurantMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ECA05292654620800DD1DE5 /* RestaurantMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuUITests.swift; sourceTree = "<group>"; };
 		1ECA052B2654620800DD1DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ECA053F265466E500DD1DE5 /* CategoriesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesListViewController.swift; sourceTree = "<group>"; };
+		1ECA05452654689300DD1DE5 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		1ECA054D265468C800DD1DE5 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		1ECA05532654691F00DD1DE5 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		1ECA05582654695400DD1DE5 /* CategoriesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesListViewModel.swift; sourceTree = "<group>"; };
+		1ECA055E265469C500DD1DE5 /* MenuRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRepo.swift; sourceTree = "<group>"; };
+		1ECA05652654710600DD1DE5 /* RestaurantMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenu.swift; sourceTree = "<group>"; };
+		1ECA056D2654714300DD1DE5 /* RestaurantInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfo.swift; sourceTree = "<group>"; };
+		1ECA0572265471FA00DD1DE5 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		1ECA0577265472C100DD1DE5 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		1ECA057C2654761A00DD1DE5 /* restaurant-menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "restaurant-menu.json"; sourceTree = "<group>"; };
+		1ECA058426547E1900DD1DE5 /* ActivityIndicatorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorExtension.swift; sourceTree = "<group>"; };
+		1ECA058926547E5600DD1DE5 /* CategoryTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableCell.swift; sourceTree = "<group>"; };
+		1ECA05B92654C53700DD1DE5 /* CategoryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsViewController.swift; sourceTree = "<group>"; };
+		1ECA05BE2654C55700DD1DE5 /* MenuItemTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTableCell.swift; sourceTree = "<group>"; };
+		1ECA05C32654C78100DD1DE5 /* StoryBoardsIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardsIDs.swift; sourceTree = "<group>"; };
+		1ECA05C82654C87300DD1DE5 /* CategoryDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsViewModel.swift; sourceTree = "<group>"; };
+		1ECA05F92654C9F100DD1DE5 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		1ECA06012654CBCD00DD1DE5 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
+		1ECA060A2654CF0500DD1DE5 /* MenuItemTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuItemTableCell.xib; sourceTree = "<group>"; };
+		1ECA06102654D0FA00DD1DE5 /* Cart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
+		1ECA06162654D14300DD1DE5 /* CartDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartDetailsViewController.swift; sourceTree = "<group>"; };
+		1ECA061E2654D32600DD1DE5 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		1ECA06232654D75D00DD1DE5 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		1ED7DB412654F50D00F4C161 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		1ED7DB4A2654F5BB00F4C161 /* Payment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payment.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +151,13 @@
 		1ECA05062654620500DD1DE5 /* RestaurantMenu */ = {
 			isa = PBXGroup;
 			children = (
+				1ECA0564265470CD00DD1DE5 /* Models */,
+				1ECA055D2654698F00DD1DE5 /* Repos */,
+				1ECA05442654687700DD1DE5 /* Helpers */,
+				1ECA053A2654646000DD1DE5 /* Epics */,
 				1ECA05072654620500DD1DE5 /* AppDelegate.swift */,
 				1ECA05092654620500DD1DE5 /* SceneDelegate.swift */,
 				1ECA050B2654620500DD1DE5 /* ViewController.swift */,
-				1ECA050D2654620500DD1DE5 /* Main.storyboard */,
 				1ECA05102654620800DD1DE5 /* Assets.xcassets */,
 				1ECA05122654620800DD1DE5 /* LaunchScreen.storyboard */,
 				1ECA05152654620800DD1DE5 /* Info.plist */,
@@ -126,6 +181,157 @@
 				1ECA052B2654620800DD1DE5 /* Info.plist */,
 			);
 			path = RestaurantMenuUITests;
+			sourceTree = "<group>";
+		};
+		1ECA053A2654646000DD1DE5 /* Epics */ = {
+			isa = PBXGroup;
+			children = (
+				1ECA06062654CE6D00DD1DE5 /* Menu */,
+				1ED7DB402654F4D900F4C161 /* Checkout */,
+				1ECA060F2654D0C600DD1DE5 /* Cart */,
+			);
+			path = Epics;
+			sourceTree = "<group>";
+		};
+		1ECA053B2654647000DD1DE5 /* MenuCategories */ = {
+			isa = PBXGroup;
+			children = (
+				1ECA053F265466E500DD1DE5 /* CategoriesListViewController.swift */,
+				1ECA058926547E5600DD1DE5 /* CategoryTableCell.swift */,
+				1ECA05582654695400DD1DE5 /* CategoriesListViewModel.swift */,
+			);
+			path = MenuCategories;
+			sourceTree = "<group>";
+		};
+		1ECA05442654687700DD1DE5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1ECA05F82654C9E000DD1DE5 /* Core */,
+				1ECA057C2654761A00DD1DE5 /* restaurant-menu.json */,
+				1ECA0552265468FF00DD1DE5 /* Extensions */,
+				1ECA05452654689300DD1DE5 /* BaseViewModel.swift */,
+				1ECA054D265468C800DD1DE5 /* Dynamic.swift */,
+				1ECA0577265472C100DD1DE5 /* NetworkError.swift */,
+				1ECA05C32654C78100DD1DE5 /* StoryBoardsIDs.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1ECA0552265468FF00DD1DE5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1ECA05532654691F00DD1DE5 /* ViewControllerExtension.swift */,
+				1ECA06012654CBCD00DD1DE5 /* UserDefaultsExtension.swift */,
+				1ECA058426547E1900DD1DE5 /* ActivityIndicatorExtension.swift */,
+				1ECA06232654D75D00DD1DE5 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1ECA055D2654698F00DD1DE5 /* Repos */ = {
+			isa = PBXGroup;
+			children = (
+				1ECA055E265469C500DD1DE5 /* MenuRepo.swift */,
+			);
+			path = Repos;
+			sourceTree = "<group>";
+		};
+		1ECA0564265470CD00DD1DE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1ECA05652654710600DD1DE5 /* RestaurantMenu.swift */,
+				1ECA056D2654714300DD1DE5 /* RestaurantInfo.swift */,
+				1ECA0572265471FA00DD1DE5 /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1ECA05B82654C51500DD1DE5 /* CategoryDetails */ = {
+			isa = PBXGroup;
+			children = (
+				1ECA05B92654C53700DD1DE5 /* CategoryDetailsViewController.swift */,
+				1ECA05BE2654C55700DD1DE5 /* MenuItemTableCell.swift */,
+				1ECA05C82654C87300DD1DE5 /* CategoryDetailsViewModel.swift */,
+			);
+			path = CategoryDetails;
+			sourceTree = "<group>";
+		};
+		1ECA05F82654C9E000DD1DE5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1ECA05F92654C9F100DD1DE5 /* Cart.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1ECA06062654CE6D00DD1DE5 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				1ECA06072654CEAD00DD1DE5 /* Modules */,
+				1ECA06082654CEC000DD1DE5 /* SubModules */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		1ECA06072654CEAD00DD1DE5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1ECA050D2654620500DD1DE5 /* Main.storyboard */,
+				1ECA05B82654C51500DD1DE5 /* CategoryDetails */,
+				1ECA053B2654647000DD1DE5 /* MenuCategories */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1ECA06082654CEC000DD1DE5 /* SubModules */ = {
+			isa = PBXGroup;
+			children = (
+				1ECA06092654CED300DD1DE5 /* MenuItemCell */,
+			);
+			path = SubModules;
+			sourceTree = "<group>";
+		};
+		1ECA06092654CED300DD1DE5 /* MenuItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				1ECA060A2654CF0500DD1DE5 /* MenuItemTableCell.xib */,
+			);
+			path = MenuItemCell;
+			sourceTree = "<group>";
+		};
+		1ECA060F2654D0C600DD1DE5 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				1ECA06152654D11500DD1DE5 /* CartDetails */,
+				1ECA06102654D0FA00DD1DE5 /* Cart.storyboard */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		1ECA06152654D11500DD1DE5 /* CartDetails */ = {
+			isa = PBXGroup;
+			children = (
+				1ECA06162654D14300DD1DE5 /* CartDetailsViewController.swift */,
+				1ECA061E2654D32600DD1DE5 /* CartTableViewCell.swift */,
+			);
+			path = CartDetails;
+			sourceTree = "<group>";
+		};
+		1ED7DB402654F4D900F4C161 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				1ED7DB492654F54500F4C161 /* Payment */,
+				1ED7DB4A2654F5BB00F4C161 /* Payment.storyboard */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		1ED7DB492654F54500F4C161 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				1ED7DB412654F50D00F4C161 /* PaymentViewController.swift */,
+			);
+			path = Payment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +438,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ECA05142654620800DD1DE5 /* LaunchScreen.storyboard in Resources */,
+				1ED7DB4B2654F5BB00F4C161 /* Payment.storyboard in Resources */,
 				1ECA05112654620800DD1DE5 /* Assets.xcassets in Resources */,
 				1ECA050F2654620500DD1DE5 /* Main.storyboard in Resources */,
+				1ECA057D2654761A00DD1DE5 /* restaurant-menu.json in Resources */,
+				1ECA06112654D0FA00DD1DE5 /* Cart.storyboard in Resources */,
+				1ECA060B2654CF0500DD1DE5 /* MenuItemTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +468,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ECA05C92654C87300DD1DE5 /* CategoryDetailsViewModel.swift in Sources */,
 				1ECA050C2654620500DD1DE5 /* ViewController.swift in Sources */,
+				1ECA05462654689300DD1DE5 /* BaseViewModel.swift in Sources */,
+				1ECA06172654D14300DD1DE5 /* CartDetailsViewController.swift in Sources */,
+				1ECA05542654691F00DD1DE5 /* ViewControllerExtension.swift in Sources */,
+				1ECA056E2654714300DD1DE5 /* RestaurantInfo.swift in Sources */,
+				1ECA06242654D75D00DD1DE5 /* UIViewExtension.swift in Sources */,
 				1ECA05082654620500DD1DE5 /* AppDelegate.swift in Sources */,
+				1ECA054E265468C800DD1DE5 /* Dynamic.swift in Sources */,
+				1ECA05FA2654C9F100DD1DE5 /* Cart.swift in Sources */,
+				1ECA058526547E1900DD1DE5 /* ActivityIndicatorExtension.swift in Sources */,
+				1ED7DB422654F50D00F4C161 /* PaymentViewController.swift in Sources */,
+				1ECA0540265466E500DD1DE5 /* CategoriesListViewController.swift in Sources */,
+				1ECA05592654695400DD1DE5 /* CategoriesListViewModel.swift in Sources */,
+				1ECA05C42654C78100DD1DE5 /* StoryBoardsIDs.swift in Sources */,
+				1ECA05BA2654C53700DD1DE5 /* CategoryDetailsViewController.swift in Sources */,
 				1ECA050A2654620500DD1DE5 /* SceneDelegate.swift in Sources */,
+				1ECA061F2654D32600DD1DE5 /* CartTableViewCell.swift in Sources */,
+				1ECA055F265469C500DD1DE5 /* MenuRepo.swift in Sources */,
+				1ECA0578265472C100DD1DE5 /* NetworkError.swift in Sources */,
+				1ECA05662654710600DD1DE5 /* RestaurantMenu.swift in Sources */,
+				1ECA0573265471FA00DD1DE5 /* Category.swift in Sources */,
+				1ECA05BF2654C55700DD1DE5 /* MenuItemTableCell.swift in Sources */,
+				1ECA06022654CBCD00DD1DE5 /* UserDefaultsExtension.swift in Sources */,
+				1ECA058A26547E5600DD1DE5 /* CategoryTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
